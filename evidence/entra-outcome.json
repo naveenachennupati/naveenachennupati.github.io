@@ -1,0 +1,32 @@
+{
+  "study": "Identity governance first-pass exception queue - generated scale exercise",
+  "evidence_level": "Deterministic fictional identity/role fixture; not an actual Entra tenant review",
+  "users": 2000,
+  "service_principals": 30,
+  "role_assignments": 346,
+  "application_credentials": 30,
+  "control_records_checked": 376,
+  "raw_control_findings": 151,
+  "distinct_first_pass_review_items": 138,
+  "not_flagged_in_initial_policy_scan": 238,
+  "initial_queue_share_pct": 36.7,
+  "distinct_principals_to_contact": 119,
+  "findings_by_control": {
+    "AZ-002": 5,
+    "AZ-003": 8,
+    "DIR-001": 18,
+    "DIR-002": 19,
+    "DIR-004": 6,
+    "APP-001": 10,
+    "AZ-001": 42,
+    "DIR-003": 43
+  },
+  "fixture_sha256": "1cc2da6a7f0b0b1fa718ef74848a39132be45ad4aa8e33523623d62471a22ce1",
+  "source_completeness": "Synthetic data has full fixture fields; Graph production pagination, consent, and licensing not tested",
+  "limitations": [
+    "This is an exception-prioritization queue, not an access certification; all privileged access requires periodic owner review.",
+    "Findings are possible policy exceptions, not confirmed improper access or completed remediations.",
+    "Simulated user count and queue composition are design parameters; no enterprise performance result is implied.",
+    "Microsoft Graph/ARM collectors require independently authorized tenant integration tests."
+  ]
+}

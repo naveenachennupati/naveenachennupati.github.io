@@ -1,0 +1,100 @@
+{
+  "study": "Illustrative identity detection triage benchmark",
+  "evidence_level": "Controlled labeled scenario replay using Python reference logic; not executed in Microsoft Sentinel",
+  "case_count": 280,
+  "event_count": 2180,
+  "scenario_source": "Generator code; documentation addresses and example.test identities",
+  "dataset_sha256": "ceb736479cd0c5aaf15bfc86a2bd79d352cb67e8343b55ba76a744147f827e8e",
+  "by_rule": {
+    "password-spray": {
+      "scenarios": 140,
+      "baseline": {
+        "tp": 40,
+        "fp": 50,
+        "tn": 40,
+        "fn": 10,
+        "alerts": 90,
+        "precision": 0.4444,
+        "recall": 0.8,
+        "false_positive_rate": 0.5556
+      },
+      "tuned_reference_model": {
+        "tp": 40,
+        "fp": 20,
+        "tn": 70,
+        "fn": 10,
+        "alerts": 60,
+        "precision": 0.6667,
+        "recall": 0.8,
+        "false_positive_rate": 0.2222
+      },
+      "false_positive_cases_avoided": 30,
+      "review_candidates_avoided": 30
+    },
+    "failed-to-success": {
+      "scenarios": 140,
+      "baseline": {
+        "tp": 40,
+        "fp": 90,
+        "tn": 0,
+        "fn": 10,
+        "alerts": 130,
+        "precision": 0.3077,
+        "recall": 0.8,
+        "false_positive_rate": 1.0
+      },
+      "tuned_reference_model": {
+        "tp": 40,
+        "fp": 0,
+        "tn": 90,
+        "fn": 10,
+        "alerts": 40,
+        "precision": 1.0,
+        "recall": 0.8,
+        "false_positive_rate": 0.0
+      },
+      "false_positive_cases_avoided": 90,
+      "review_candidates_avoided": 90
+    }
+  },
+  "baseline": {
+    "tp": 80,
+    "fp": 140,
+    "tn": 40,
+    "fn": 20,
+    "alerts": 220,
+    "precision": 0.3636,
+    "recall": 0.8,
+    "false_positive_rate": 0.7778
+  },
+  "tuned_reference_model": {
+    "tp": 80,
+    "fp": 20,
+    "tn": 160,
+    "fn": 20,
+    "alerts": 100,
+    "precision": 0.8,
+    "recall": 0.8,
+    "false_positive_rate": 0.1111
+  },
+  "modeled_review_candidate_reduction_pct": 54.5,
+  "false_positive_case_reduction_pct": 85.7,
+  "scenario_types": {
+    "spray-burst": 40,
+    "spray-low-and-slow": 10,
+    "single-user-retries": 30,
+    "shared-proxy-bursts": 20,
+    "low-benign-failures": 40,
+    "account-takeover": 40,
+    "low-volume-takeover": 10,
+    "no-success": 30,
+    "delayed-success": 30,
+    "cross-ip-success": 30
+  },
+  "limitations": [
+    "Labels and thresholds are constructed for a repeatable exercise; scenario prevalence is not representative of a real tenant.",
+    "Shared proxy traffic remains ambiguous; the tuned model can still alert on legitimate shared-network failures.",
+    "Low-and-slow password spray and low-volume takeover cases are missed by both candidate policies.",
+    "Python scenario checks are not a KQL execution engine or a production incident outcome measurement."
+  ]
+}

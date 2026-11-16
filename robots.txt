@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://naveenachennupati.github.io/sitemap.xml

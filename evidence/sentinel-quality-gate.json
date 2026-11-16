@@ -1,0 +1,50 @@
+{
+  "verification_type": "Deterministic reference-model simulation; NOT KQL execution or production performance",
+  "case_count": 200,
+  "event_count": 1000,
+  "synthetic_corpus_sha256": "e63885fbe63602e683ba6ac2ba6dd5a105edb156ac9f0f7f30ae7c485dbd75c9",
+  "metrics": {
+    "ID-001": {
+      "tp": 25,
+      "tn": 25,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "ID-002": {
+      "tp": 25,
+      "tn": 25,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "ID-003": {
+      "tp": 25,
+      "tn": 25,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0
+    },
+    "ID-004": {
+      "tp": 25,
+      "tn": 25,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_rate": 0.0
+    }
+  },
+  "passed": true,
+  "limitations": [
+    "Does not execute KQL or Sentinel scheduled alerts",
+    "Clean synthetic cases do not represent tenant noise, baselines or adversarial coverage",
+    "Regression pass rate is not a production precision or recall estimate"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "test_data": "purpose-built regression scenarios, not production telemetry",
+  "rule_semantics": {
+    "password_spray_ips": [
+      "198.51.100.17"
+    ],
+    "failures_followed_by_success_users": [
+      "security@example.test"
+    ],
+    "role_change_events": 1,
+    "high_risk_signin_events": 1
+  },
+  "scope": "Python scenario logic only; KQL deployment and execution not validated"
+}

@@ -1,0 +1,95 @@
+{
+  "as_of": "2026-11-16",
+  "method": "two-person attestation with expiring exceptions; no system changes",
+  "source_review_sha256": "c97fc55be0c335c5323f822efb8418f73df23cda2c67ac50679418dd66bd8713",
+  "counts": {
+    "open": 7
+  },
+  "decisions": [
+    {
+      "finding_id": "5a4ed0668adabbe6",
+      "control": "AZ-002",
+      "severity": "High",
+      "principal": "Workflow Connector",
+      "role": "Owner",
+      "status": "open",
+      "owner": "",
+      "approver": "",
+      "ticket": "",
+      "expires_on": ""
+    },
+    {
+      "finding_id": "a08f88327f252ad0",
+      "control": "DIR-001",
+      "severity": "High",
+      "principal": "taylor@example.test",
+      "role": "Global Administrator",
+      "status": "open",
+      "owner": "",
+      "approver": "",
+      "ticket": "",
+      "expires_on": ""
+    },
+    {
+      "finding_id": "5f2033fac9eeabc3",
+      "control": "DIR-002",
+      "severity": "High",
+      "principal": "taylor@example.test",
+      "role": "Global Administrator",
+      "status": "open",
+      "owner": "",
+      "approver": "",
+      "ticket": "",
+      "expires_on": ""
+    },
+    {
+      "finding_id": "5d08dced356ffecc",
+      "control": "DIR-004",
+      "severity": "High",
+      "principal": "Workflow Connector",
+      "role": "Global Administrator",
+      "status": "open",
+      "owner": "",
+      "approver": "",
+      "ticket": "",
+      "expires_on": ""
+    },
+    {
+      "finding_id": "e6837d70791db325",
+      "control": "APP-001",
+      "severity": "Medium",
+      "principal": "Workflow Connector",
+      "role": "Application credential",
+      "status": "open",
+      "owner": "",
+      "approver": "",
+      "ticket": "",
+      "expires_on": ""
+    },
+    {
+      "finding_id": "77d8bfa69ddebd05",
+      "control": "AZ-001",
+      "severity": "Medium",
+      "principal": "Workflow Connector",
+      "role": "Owner",
+      "status": "open",
+      "owner": "",
+      "approver": "",
+      "ticket": "",
+      "expires_on": ""
+    },
+    {
+      "finding_id": "85c520b30e891168",
+      "control": "DIR-003",
+      "severity": "Medium",
+      "principal": "morgan@example.test",
+      "role": "Global Administrator",
+      "status": "open",
+      "owner": "",
+      "approver": "",
+      "ticket": "",
+      "expires_on": ""
+    }
+  ],
+  "outstanding": 7
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="400" viewBox="0 0 940 400" role="img" aria-label="Privileged Access Review">
+  <defs><linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0A1D31"/><stop offset="100%" stop-color="#133748"/></linearGradient></defs>
+  <rect width="940" height="400" rx="22" fill="url(#background)"/><rect x="22" y="22" width="896" height="356" rx="16" fill="none" stroke="#3D6673" stroke-width="2"/>
+  <rect x="48" y="49" width="10" height="58" rx="4" fill="#63D9CB"/>
+  <text x="77" y="71" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.6" fill="#68DCCA">MICROSOFT ENTRA ID / AZURE RBAC GOVERNANCE</text>
+  <text x="77" y="105" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#F8FEFF">Privileged Access Review</text>
+  <line x1="50" y1="133" x2="890" y2="133" stroke="#325364" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+<rect x="54" y="158" width="248" height="146" rx="14" fill="#173D4A" stroke="#356977"/><text x="76" y="209" font-size="40" font-weight="bold" fill="#8CF4DE">2,000</text><text x="76" y="240" font-size="17" fill="#D2E9ED">Generated identities</text><text x="76" y="271" font-size="13" fill="#9EBDC6">Modeled access snapshot</text>
+<path d="M314 231 L355 231" stroke="#6FD7CD" stroke-width="3"/><path d="M346 223 L356 231 L346 239" fill="none" stroke="#6FD7CD" stroke-width="3"/>
+<rect x="370" y="158" width="225" height="146" rx="14" fill="#173D4A" stroke="#356977"/><text x="393" y="209" font-size="40" font-weight="bold" fill="#8CF4DE">376</text><text x="393" y="240" font-size="17" fill="#D2E9ED">Access records</text><text x="393" y="271" font-size="13" fill="#9EBDC6">Role and credential data</text>
+<path d="M608 231 L650 231" stroke="#6FD7CD" stroke-width="3"/><path d="M641 223 L651 231 L641 239" fill="none" stroke="#6FD7CD" stroke-width="3"/>
+<rect x="664" y="158" width="220" height="146" rx="14" fill="#24564F" stroke="#5EDAC0"/><text x="690" y="209" font-size="40" font-weight="bold" fill="#A0FFE8">138</text><text x="690" y="240" font-size="17" fill="#E5FCF4">Review items</text><text x="690" y="271" font-size="13" fill="#B1D7D2">Initial exception queue</text></g><line x1="50" y1="338" x2="890" y2="338" stroke="#325364" stroke-width="2"/><text x="50" y="363" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#A4C9D3">9 review controls   •   Independent attestation   •   No real tenant data</text></svg>
