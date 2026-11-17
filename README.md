@@ -39,3 +39,8 @@ See [`PUBLISH_WINDOWS.md`](PUBLISH_WINDOWS.md) for detailed Windows PowerShell i
 - Resume files: replace the corresponding PDFs in `downloads/`
 
 Do not upload private employer data, logs, credentials or internal ticket screenshots.
+
+
+## 3D design & recruiter-focused update
+
+Expanded skill matrix, new contact narrative with focus/availability, progressive 3D hero and cards, and clarified role specialization. The project results retain scenario-specific scope details on project pages. Update your existing GitHub Pages repository using `UPDATE_LIVE_SITE_WINDOWS.md` (do not create a new one).
